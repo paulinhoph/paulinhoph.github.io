@@ -30,6 +30,13 @@ main{
 	background-size: contain;
 
 }
+	@media screen and (max-width:620px){
+	 	main{
+	 		flex-direction: column;
+	 		
+	 	}
+
+	}
 
 .container1{
 	display: flex;
@@ -47,6 +54,7 @@ main{
 	border: solid 2px #000 ;
 
 }
+
 .container1 h1{
 	margin: 7%;
 	text-align: left;
@@ -66,6 +74,21 @@ main{
 	width: 70%;
 	
 }
+	@media screen and (max-width:620px){
+			.container1{
+				justify-content: center;
+				align-items: center;
+			}
+		 	.container1 img {
+		 		width: 80%;
+		 	}
+		 	.container2 p{
+		 		width: 110%;
+		 		padding: 10%;
+		 		border-radius: 25px;
+		 	}
+
+		}
 
 footer{
 	display: flex;
@@ -91,3 +114,14 @@ li img{
 	width: 100%;
 
 }
+	@media screen and (max-width:620px){
+		 	li{
+		 	 margin: 0;
+		 		
+		 	}
+		 	li img{
+				width: 50%;
+
+			}
+
+		}
