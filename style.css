@@ -1,0 +1,93 @@
+*{
+	box-sizing: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+header {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+header img{
+	position: relative;
+}
+
+header img:hover{
+    transition-delay: 0;
+    height: 220px;
+    transition: height 2s;
+}
+
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url("giphy.gif") center ;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+
+.container1{
+	display: flex;
+	justify-content: center;
+	align-content:center;
+	flex-direction: column;
+	margin: 5%;
+	width: 50%;
+}
+
+.container1 img{
+	width: 50%;
+	height: 30vh;
+	border-radius: 50%;
+	border: solid 2px #000 ;
+
+}
+.container1 h1{
+	margin: 7%;
+	text-align: left;
+}
+
+.container2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+
+
+}
+
+.container2 p{ 
+	font-size: 1.30em;
+	width: 70%;
+	
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+
+}
+
+ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li{
+	list-style: none;
+	margin: 5%;
+	border-radius: 50%;
+}
+
+li img{
+	width: 100%;
+
+}
