@@ -33,7 +33,15 @@ main{
 	@media screen and (max-width:620px){
 	 	main{
 	 		flex-direction: column;
+	 		background: yellow;
 	 		
+	 	}
+
+	}
+	@media screen and (max-width:320px){
+	 	main{
+	 		background: yellow;
+
 	 	}
 
 	}
@@ -85,10 +93,27 @@ main{
 		 	.container2 p{
 		 		width: 110%;
 		 		padding: 10%;
-		 		border-radius: 25px;
+		 		
 		 	}
 
 		}
+
+		@media screen and (max-width:320px){
+		 	.container1 img {
+		 		width: 80%;
+		 	}
+		 	.container1 h1{
+		 		width: 110%;
+		 		text-align: center;
+		 	}
+		 	.container2 p{
+		 		width: 100%;
+		 		padding: 0;
+		 	
+		 	}
+
+		}
+
 
 footer{
 	display: flex;
@@ -113,15 +138,34 @@ li{
 li img{
 	width: 100%;
 
+
 }
 	@media screen and (max-width:620px){
+			ul{
+				padding: 20%;
+			}
 		 	li{
 		 	 margin: 0;
 		 		
 		 	}
 		 	li img{
 				width: 50%;
+				background-color: #000;
 
 			}
+			footer{
+		 		background: blue;
+		 	}
+		 	
+
+		}
+		@media screen and (max-width:320px){
+		 	footer{
+		 		background: blue;
+		 	}
+		 	li img{
+		 		background: #000;
+		 	}
+		 	
 
 		}
