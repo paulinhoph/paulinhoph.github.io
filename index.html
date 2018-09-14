@@ -15,12 +15,15 @@
             <a href="#about" class="navbar-link  scroll">Sobre Mim</a>
             <a href="#projects" class="navbar-link  scroll">Projetos</a>
             <a href="#contact" class="navbar-link  scroll">Contato</a>
-            <a href="../index.html" class="navbar-link language">pt-br</a>
+            <a href="./index.html" class="navbar-link language">pt-br</a>
         </nav>
     </header>
-    <nav class="navbar menu-mobile">
-        <h1 class="navbar-title">Paulo Hnerique</h1>
-        <div class="fa fa-bars navbar-bars"></div>
+    <nav class="menu-mobile">
+        <div class="fa fa-bars navbar-bars">
+            <span class="um">Sobre Mim</span>
+            <span class="dois">Projetos</span>
+            <span class="tres">Contato</span>
+        </div>
     </nav>
     <main>
         <section id="about" class="about">
@@ -42,29 +45,29 @@
         </section>
         <section id="projects" class="projects">
             <h1 class="projects-title">Projetos</h1>
-            <div class="projects-items">
+            <div class="projects-items" >
                 <a href="https://paulinhoph.github.io/JogoJava/" target="_blank" class="project">
                     <img src="./assets/jogojava.png" alt="jogojava" class="project-image">
                     <h2 class="project-title">Jogo Java</h2>
                 </a>
-                <a href="" target="_blank" class="project">
-                    <img src="../assets/proa.png" alt="Página do PROA" class="project-image">
+                <a href="https://paulinhoph.github.io/proa/" target="_blank" class="project">
+                    <img src="./assets/proa.png" alt="Página do PROA" class="project-image">
                     <h2 class="project-title">PROA</h2>
                 </a>
-                <a href="" target="_blank" class="project">
-                    <img src="../assets/CookingSchool.png" alt="Desafio Cooking School" class="project-image">
+                <a href="https://paulinhoph.github.io/Trabalho/" target="_blank" class="project">
+                    <img src="./assets/Cooking.png" alt="Desafio Cooking School" class="project-image">
                     <h2 class="project-title">Desafio Cooking School</h2>
                 </a>
-                <a href="" target="_blank" class="project">
-                    <img src="../assets/Estudio.png" alt="Desafio Estúdio Vai na Web" class="project-image">
-                    <h2 class="project-title">Desafio Estúdio Vai na Web</h2>
+                <a href="https://paulinhoph.github.io/desenho/" target="_blank" class="project">
+                    <img src="./assets/desenho.png" alt="Desafio Estúdio Vai na Web" class="project-image">
+                    <h2 class="project-title">Desenho</h2>
                 </a>
                 <a href="" target="_blank" class="project">
-                     <img src="../assets/MusiConnect.png" alt="Projeto MusiConnect" class="project-image">
-                    <h2 class="project-title">MusiConnect</h2>
+                     <img src="./assets/sol.png" alt="desenho" class="project-image">
+                    <h2 class="project-title">Desenho Sol</h2>
                 </a>
                 <a href="" class="project">
-                    <img src="../assets/Instagram.png" alt="Projeto Instagram" class="project-image">
+                    <img src="./assets/python.jpg" alt="Projeto Instagram" class="project-image">
                     <h2 class="project-title">Instagram</h2>
                 </a>
             </div>        
@@ -85,15 +88,26 @@
             © 2018 Paulo Hnerique.
         </small>
         <section class="footer-social">
-            <a href="https://github.com/herbertveloso/" target="_blank" class="social github" title="Meu GitHub"><span class="fa fa-github"></span></a>
-            <a href="https://codepen.io/herbertveloso/" target="_blank" class="social codepen" title="Meu CodePen"><span class="fa fa-codepen"></span></a>
-            <a href="https://www.linkedin.com/in/herbertveloso/" target="_blank" class="social linkedin" title="Meu LinkedIn"><span class="fa fa-linkedin"></span></a>
-            <a href="https://www.facebook.com/herbert.veloso.7" target="_blank" class="social facebook" title="Meu Facebook"><span class="fa fa-facebook"></span></a>
-            <a href="https://twitter.com/velosoherbert" target="_blank" class="social twitter" title="Meu Twitter"><span class="fa fa-twitter"></span></a>
-            <a href="https://www.instagram.com/herbertvelos/" target="_blank" class="social instagram" title="Meu Instagram"><span class="fa fa-instagram"></span></a>
+            <a href="https://github.com/paulinhoph" target="_blank" class="social github" title="Meu GitHub"><span class="fa fa-github"></span></a>
+
+            <a href="https://codepen.io/Paulinhoph/" target="_blank" class="social codepen" title="Meu CodePen"><span class="fa fa-codepen"></span></a>
+
+            <a href="https://www.linkedin.com/in/paulo-henrique-7508ba16b/" target="_blank" class="social linkedin" title="Meu LinkedIn"><span class="fa fa-linkedin"></span></a>
+
+            <a href="https://www.facebook.com/pl.hemrqiue?fb_dtsg_ag=AdzzxtciRDHVkpxFtI-w6uDOxRlUpo-sGHXXSmZnyNjCww%3AAdwUE0C0eTmEoVYrTcupW8dtwNKuwl1pie9pTODzmKU03g" target="_blank" class="social facebook" title="Meu Facebook"><span class="fa fa-facebook"></span></a>
+
+            <a href="https://twitter.com/Pauloheenrrique" target="_blank" class="social twitter" title="Meu Twitter"><span class="fa fa-twitter"></span></a>
+
+            <a href="https://www.instagram.com/pqsim_paulin/" target="_blank" class="social instagram" title="Meu Instagram"><span class="fa fa-instagram"></span></a>
         </section>
     </footer>
-    <script src="../js/jquery.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="./js/jquery.js">
+        $(document).ready(function(){
+            $(".navbar-mobile").click(function(){
+                $(this).toggleClass("open")
+    })
+    </script>
+    <script src="./js/script.js">
+    </script>
 </body>
 </html>
