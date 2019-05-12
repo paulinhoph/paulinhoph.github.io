@@ -1,0 +1,112 @@
+@media screen and (max-width: 409px) {
+  .section-skills {
+    .nav-pills {
+      >li {
+        font-size: 10px;
+        >a {
+          padding: 14px 10px 12px 10px;
+        }
+      }
+
+    }
+  }
+
+  .about-me-content {
+    p {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .section-showcase {
+    h1 {
+      font-size: 4.8em;
+    }
+
+    h3.bordered {
+      font-size: 16px;
+    }
+  }
+
+
+  .about-me-content {
+    p { font-size: 13.3px; }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .flex-container { 
+    flex-direction: column;
+
+    .portfolio-item {
+      margin: 30px auto;
+    }
+  }
+
+
+  
+  .section-blog .post .post-title {
+    font-size: 17px;
+  }
+  
+  .navbar-responsive-pos {
+    float: none;
+  }
+
+  h2, h5, p.about-me-questions {
+    text-align: center;
+  }
+
+  .about-me-content {
+    margin-top: 20px;
+  }
+
+  .skill-item {
+    border-left: 0;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .about-me-content {
+
+    h2 {
+      padding-top: 20px;
+    }
+    p {
+      float: none;
+      border-right: 0;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  .skill-item {
+    border-left: 2px solid rgb(197, 218, 240);
+  }
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+  .about-me-content {
+    p { font-size: 13.6px; }
+  }
+
+  .col-md-3:nth-child(3) {
+    border-left: 0 !important;
+  }
+  
+  .section-blog .post {
+    margin: 15px 0;
+  }
+
+}
+

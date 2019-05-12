@@ -1,0 +1,33 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .skill-item {
+    flex-grow: 1;
+    // min-width: 280px;
+  }
+
+  .portfolio-item {
+    flex-grow: 1;
+    flex-basis: 30%;
+    min-width: 300px;
+    max-width: 480px;
+    margin: 30px 10px;
+  }
+
+  .about-me-item {
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .post {
+
+  }
+}

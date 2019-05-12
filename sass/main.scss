@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Poppins');
+@import 'partials/header';
+@import "partials/mixins";
+@import 'partials/variables';
+@import 'partials/components';
+@import 'partials/sections';
+@import 'partials/typograph';
+@import 'partials/buttons';
+@import 'partials/grid';
+@import 'partials/prog-bar';
+@import 'partials/footer';
+@import 'partials/mobile';
+
+body {
+  font-family: $font-hind;
+  color: #666;
+  position: relative;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+section:not(.section-showcase) {
+  opacity: 0;
+}
+
+section {
+  transition: 2.5s;
+}
+
+
+a {
+
+  &:hover {
+    color: $primary-color;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+}
+
+
+ul, ul.li {
+  list-style-type: none;
+}

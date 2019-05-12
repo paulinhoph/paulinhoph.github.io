@@ -1,0 +1,50 @@
+@mixin set-circle-color ($color, $light-amount) {
+  .progress-circle {
+
+    &.over50 .first50-bar {
+      background-color: $color;
+    }
+    div.value-bar {
+      border-color: $color;
+    }
+  }
+
+  .skill-item {
+    margin-top: 40px;
+    flex-basis: 25%;
+    
+    &:first-child, &:nth-child(5) {
+      border-left: 0;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .skill-item {
+      max-width: 280px;
+      border-left: 2px solid lighten($color, $light-amount);
+    }
+  }
+}
+
+@mixin button-hover-effect($color) {
+  color: white;
+  background: $color;
+  border: 1px solid $color;
+  transition: 0.7s;
+}
+
+
+@mixin skills-buttons-effects($color) {
+  >a:hover {
+    background-color: transparent;
+    color: $color;
+  }
+  &.active {
+    >a {
+      background-color: $color;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
